@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="bodor.com.readmoretextview.MainActivity">
+
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/readmore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="stay hunga and stay foolish.stay hunga and stay foolish.stay hunga and stay foolish.stay hunga and stay foolish.stay hunga and stay foolish.stay hunga and stay foolish."
+        app:colorClickableText="@android:color/holo_blue_dark"
+
+        app:trimMode="trimModeLine"
+        app:trimLines="1"
+
+       />
+    <!--app:trimExpandedText="Show More"-->
+    <!--app:trimCollapsedText="Show Less"-->
+</RelativeLayout>
